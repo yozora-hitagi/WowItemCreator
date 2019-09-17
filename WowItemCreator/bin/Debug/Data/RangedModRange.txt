@@ -1,2 +1,0 @@
-﻿0,
-1,Range Modifier for bows/guns/crossbows:Default range is somewhere between 0.3 and 0.4 yards,all blizzard ranged weapons have RangedModRange100

@@ -1,6 +1,0 @@
-﻿0,Use（使用）
-1,On Equip（装备）
-2,Chance on Hit（击中时可能）
-4,Soulstone
-5,Use with no delay
-6,Learn Spell ID
