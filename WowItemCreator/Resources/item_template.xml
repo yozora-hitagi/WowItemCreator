@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<table tablename="item_template" id="entry">
+  <field name="entry" displayname="ID" regex="" show="0" data="" parent="" child="" type="" default="100000" tips=""></field>
+  <field name="class" displayname="类型" regex="" show="2" data="" parent="" child="subclass" type="" default="0" tips=""></field>
+  <field name="subclass" displayname="子类型" regex="" show="3" data="" parent="class" child="" type="" default="0" tips=""></field>
+  <field name="SoundOverrideSubclass" displayname="" regex="" show="" data="" parent="" child="" type="" default="-1" tips="Weapons have special sounds on impact. This column is used to override these sounds by specifying another subclass. For example an item with misc subclass can sound like a stave on impact by overriding the subclass here."></field>
+  <field name="name" displayname="名称" regex="" show="1" data="" parent="" child="" type="" default="新的物品" tips=""></field>
+  <field name="displayid" displayname="模型ID" regex="" show="4" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="Quality" displayname="品质" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="Flags" displayname="标记" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="FlagsExtra" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="BuyCount" displayname="购买数量" regex="" show="" data="" parent="" child="" type="" default="1" tips=""></field>
+  <field name="BuyPrice" displayname="购买价格" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="SellPrice" displayname="售卖价格" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="InventoryType" displayname="佩带位置" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="AllowableClass" displayname="职业限制" regex="" show="" data="" parent="" child="" type="" default="-1" tips="ChrClasses.dbc"></field>
+  <field name="AllowableRace" displayname="种族限制" regex="" show="" data="" parent="" child="" type="" default="-1" tips="ChrRaces.dbc"></field>
+  <field name="ItemLevel" displayname="物品等级" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RequiredLevel" displayname="需要等级" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RequiredSkill" displayname="需要专业" regex="" show="" data="" parent="" child="" type="" default="0" tips="SkillLine.dbc"></field>
+  <field name="RequiredSkillRank" displayname="专业技能数量度" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="requiredspell" displayname="需要技能" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="requiredhonorrank" displayname="需要荣誉等级" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RequiredCityRank" displayname="需要城市等级" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RequiredReputationFaction" displayname="需要阵营（Faction）" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RequiredReputationRank" displayname="阵营等级" regex="" show="" data="RequireReputationRack" parent="" child="" type="" default="0" tips=""></field>
+  <field name="maxcount" displayname="最大携带数量" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stackable" displayname="最大叠加数量" regex="" show="" data="" parent="" child="" type="" default="1" tips=""></field>
+  <field name="ContainerSlots" displayname="容器大小" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="statscount" displayname="属性显示数量" regex="" show="" data="" parent="" child="" type="" default="10" tips=""></field>
+  <field name="stat_type1" displayname="绿字属性1" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value1" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type2" displayname="绿字属性2" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value2" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type3" displayname="绿字属性3" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value3" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type4" displayname="绿字属性4" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value4" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type5" displayname="绿字属性5" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value5" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type6" displayname="绿字属性6" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value6" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type7" displayname="绿字属性7" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value7" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type8" displayname="绿字属性8" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value8" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type9" displayname="绿字属性9" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value9" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_type10" displayname="绿字属性10" regex="" show="" data="stat_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="stat_value10" displayname="属性值" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="ScalingStatDistribution" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="ScalingStatValue" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="dmg_min1" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="dmg_max1" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="dmg_type1" displayname="" regex="" show="" data="dmg_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="dmg_min2" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="dmg_max2" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="dmg_type2" displayname="" regex="" show="" data="dmg_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="armor" displayname="护甲" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="holy_res" displayname="神圣抗性" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="fire_res" displayname="火焰抗性" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="nature_res" displayname="自然抗性" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="frost_res" displayname="冰霜抗性" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="shadow_res" displayname="暗影抗性" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="arcane_res" displayname="奥术抗性" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="delay" displayname="攻击速度" regex="" show="" data="" parent="" child="" type="" default="1000" tips=""></field>
+  <field name="ammo_type" displayname="弹药类型" regex="" show="" data="ammo_type" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RangedModRange" displayname="远程攻击距离" regex="" show="" data="RangedModRange" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellid_1" displayname="技能属性1" regex="" show="" data="spellid" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spelltrigger_1" displayname="触发条件" regex="" show="" data="spelltrigger" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcharges_1" displayname="使用次数" regex="" show="" data="spellcharges" parent="" child="" type="" default="0" tips="0 无限使用,负数使用完后删除,正数使用完后不删除"></field>
+  <field name="spellppmRate_1" displayname="每分钟触发次数" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcooldown_1" displayname="冷却时间（毫秒）" regex="" show="" data="spellcooldown" parent="" child="" type="" default="-1" tips="-1,Use -1 to use the default spell cooldown. Note: this is not the 'internal cooldown' of procs commonly found on items such as trinkets with 'Chance on hit' effects."></field>
+  <field name="spellcategory_1" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcategorycooldown_1" displayname="" regex="" show="" data="" parent="" child="" type="" default="-1" tips=""></field>
+  <field name="spellid_2" displayname="技能属性2" regex="" show="" data="spellid" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spelltrigger_2" displayname="触发条件" regex="" show="" data="spelltrigger" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcharges_2" displayname="使用次数" regex="" show="" data="spellcharges" parent="" child="" type="" default="0" tips="0 无限使用,负数使用完后删除,正数使用完后不删除"></field>
+  <field name="spellppmRate_2" displayname="每分钟触发次数" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcooldown_2" displayname="冷却时间（毫秒）" regex="" show="" data="spellcooldown" parent="" child="" type="" default="-1" tips="-1,Use -1 to use the default spell cooldown. Note: this is not the 'internal cooldown' of procs commonly found on items such as trinkets with 'Chance on hit' effects."></field>
+  <field name="spellcategory_2" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcategorycooldown_2" displayname="" regex="" show="" data="" parent="" child="" type="" default="-1" tips=""></field>
+  <field name="spellid_3" displayname="技能属性3" regex="" show="" data="spellid" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spelltrigger_3" displayname="触发条件" regex="" show="" data="spelltrigger" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcharges_3" displayname="使用次数" regex="" show="" data="spellcharges" parent="" child="" type="" default="0" tips="0 无限使用,负数使用完后删除,正数使用完后不删除"></field>
+  <field name="spellppmRate_3" displayname="每分钟触发次数" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcooldown_3" displayname="冷却时间（毫秒）" regex="" show="" data="spellcooldown" parent="" child="" type="" default="-1" tips="-1,Use -1 to use the default spell cooldown. Note: this is not the 'internal cooldown' of procs commonly found on items such as trinkets with 'Chance on hit' effects."></field>
+  <field name="spellcategory_3" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcategorycooldown_3" displayname="" regex="" show="" data="" parent="" child="" type="" default="" tips="-1"></field>
+  <field name="spellid_4" displayname="技能属性4" regex="" show="" data="spellid" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spelltrigger_4" displayname="触发条件" regex="" show="" data="spelltrigger" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcharges_4" displayname="使用次数" regex="" show="" data="spellcharges" parent="" child="" type="" default="0" tips="0 无限使用,负数使用完后删除,正数使用完后不删除"></field>
+  <field name="spellppmRate_4" displayname="每分钟触发次数" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcooldown_4" displayname="冷却时间（毫秒）" regex="" show="" data="spellcooldown" parent="" child="" type="" default="-1" tips="-1,Use -1 to use the default spell cooldown. Note: this is not the 'internal cooldown' of procs commonly found on items such as trinkets with 'Chance on hit' effects."></field>
+  <field name="spellcategory_4" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcategorycooldown_4" displayname="" regex="" show="" data="" parent="" child="" type="" default="-1" tips=""></field>
+  <field name="spellid_5" displayname="技能属性5" regex="" show="" data="spellid" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spelltrigger_5" displayname="触发条件" regex="" show="" data="spelltrigger" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcharges_5" displayname="使用次数" regex="" show="" data="spellcharges" parent="" child="" type="" default="0" tips="0 无限使用,负数使用完后删除,正数使用完后不删除"></field>
+  <field name="spellppmRate_5" displayname="每分钟触发次数" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcooldown_5" displayname="冷却时间（毫秒）" regex=""  show="" data="" parent="" child="" type="" default="-1" tips="-1,Use -1 to use the default spell cooldown. Note: this is not the 'internal cooldown' of procs commonly found on items such as trinkets with 'Chance on hit' effects."></field>
+  <field name="spellcategory_5" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="spellcategorycooldown_5" displayname="" regex="" show="" data="" parent="" child="" type="" default="-1" tips=""></field>
+  <field name="bonding" displayname="绑定" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="description" displayname="说明" regex="" show="" data="" parent="" child="" type="" default="" tips="The description that appears in orange letters at the bottom of the item tooltip."></field>
+  <field name="PageText" displayname="页面文字" regex="" show="" data="" parent="" child="" type="" default="0" tips="The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See page_text.entry"></field>
+  <field name="LanguageID" displayname="语言ID" regex="" show="" data="LanguageID" parent="" child="" type="" default="0" tips="The language that the item text is written in. See the Languages DBC file for the IDs of all of the languages."></field>
+  <field name="PageMaterial" displayname="页面材质" regex="" show="" data="PageMaterial" parent="" child="" type="" default="0" tips=""></field>
+  <field name="startquest" displayname="触发任务ID" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="lockid" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips="The lock entry ID that this item (which serves as a key) is tied to. This field is used in key-door mechanics. See the Lock DBC file."></field>
+  <field name="Material" displayname="材质" regex="" show="" data="Material" parent="" child="" type="" default="0" tips="The material that the item is made of. The value here affects the sound that the item makes when moved. Use -1 for consumable items like food, reagents, etc."></field>
+  <field name="sheath" displayname="武器显示位置" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RandomProperty" displayname="随机属性" regex="" show="" data="" parent="" child="" type="" default="0" tips="The number in this field points to item_enchantment_template.entry and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the RandomSuffix field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs."></field>
+  <field name="RandomSuffix" displayname="随机前缀" regex="" show="" data="" parent="" child="" type="" default="0" tips="The number in this field points to item_enchantment_template.entry and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the RandomProperty field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs."></field>
+  <field name="block" displayname="格挡" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="itemset" displayname="套装ID" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="MaxDurability" displayname="装备耐久" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="area" displayname="地区" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="Map" displayname="地图" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="BagFamily" displayname="" regex="" show="" data="BagFamily" parent="" child="" type="" default="0" tips=""></field>
+  <field name="TotemCategory" displayname="" regex="" show="" data="TotemCategory" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketColor_1" displayname="宝石插槽1" regex="" show="" data="socketColor" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketContent_1" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketColor_2" displayname="宝石插槽2" regex="" show="" data="socketColor" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketContent_2" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketColor_3" displayname="宝石插槽3" regex="" show="" data="socketColor" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketContent_3" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="socketBonus" displayname="插槽奖励" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="GemProperties" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="RequiredDisenchantSkill" displayname="" regex="" show="" data="" parent="" child="" type="" default="-1" tips=""></field>
+  <field name="ArmorDamageModifier" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="Duration" displayname="持续时间" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="ItemLimitCategory" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="HolidayId" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips="See the Holidays DBC file for the IDs of all of the holidays."></field>
+  <field name="ScriptName" displayname="" regex="" show="" data="" parent="" child="" type="" default="" tips=""></field>
+  <field name="DisenchantID" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips="The disenchant loot template ID. See disenchant_loot_template.entry"></field>
+  <field name="FoodType" displayname="" regex="" show="" data="FoodType" parent="" child="" type="" default="0" tips=""></field>
+  <field name="minMoneyLoot" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="maxMoneyLoot" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+  <field name="flagsCustom" displayname="" regex="" show="" data="flagsCustom" parent="" child="" type="" default="0" tips=""></field>
+  <field name="VerifiedBuild" displayname="" regex="" show="" data="" parent="" child="" type="" default="0" tips=""></field>
+</table>

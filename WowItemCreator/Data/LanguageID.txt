@@ -1,0 +1,17 @@
+﻿1,Orcish（兽人语）
+2,Darnassian（达纳苏斯语）
+3,Taurahe（牛头人语）
+6,Dwarvish（矮人语）
+7,Common（通用语）
+8,Demonic（恶魔语）
+9,Titan（泰坦语）
+10,Thalassian（萨拉斯语）
+11,Draconic（龙语）
+12,Kalimag（卡里姆多语）
+13,Gnomish（侏儒语）
+14,Troll（巨魔语）
+33,Gutterspeak（亡灵语）
+35,Draenei（德莱尼语）
+36,Zombie（僵尸语）
+37,Gnomish Binary（侏儒二进制）
+38,Goblin Binary（地精二进制）

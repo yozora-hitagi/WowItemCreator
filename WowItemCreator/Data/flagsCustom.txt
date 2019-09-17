@@ -1,0 +1,3 @@
+﻿1,ITEM_FLAGS_CU_DURATION_REAL_TIME Item duration will tick even if player is offline
+2,ITEM_FLAGS_CU_IGNORE_QUEST_STATUS No quest status will be checked when this item drops
+4,ITEM_FLAGS_CU_FOLLOW_LOOT_RULES Item will always follow group/master/need before greed looting rules

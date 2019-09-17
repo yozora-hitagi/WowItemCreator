@@ -1,0 +1,14 @@
+﻿<Window x:Class="WowItemCreator.Window_GetColor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WowItemCreator"
+        mc:Ignorable="d"
+        Title="色卡" Height="81.76" Width="293.562" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Label Name="color_label" Margin="10,10,181,10"/>
+        <TextBox Margin="112,10,64,10" Name="color_text" FontSize="18" IsReadOnly="True"/>
+        <Image MouseLeftButtonDown="Image_MouseLeftButtonDown" Source="/WowItemCreator;component/Resources/color.png" Margin="222,10,9.562,9.76"/>
+    </Grid>
+</Window>

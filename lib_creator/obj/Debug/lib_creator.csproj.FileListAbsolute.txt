@@ -1,0 +1,17 @@
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\bin\Debug\SFmpq.dll
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\bin\Debug\StormLib.dll
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\bin\Debug\lib_creator.dll
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\bin\Debug\lib_creator.pdb
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\obj\Debug\lib_creator.csprojResolveAssemblyReference.cache
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\obj\Debug\lib_creator.dll
+H:\TrinityCore_TOOL\WowItemCreator\lib_creator\obj\Debug\lib_creator.pdb
+H:\wow60_tools\WowItemCreator\lib_creator\bin\Debug\lib_creator.dll
+H:\wow60_tools\WowItemCreator\lib_creator\bin\Debug\lib_creator.pdb
+H:\wow60_tools\WowItemCreator\lib_creator\obj\Debug\lib_creator.dll
+H:\wow60_tools\WowItemCreator\lib_creator\obj\Debug\lib_creator.pdb
+D:\wow_tools\WowItemCreator\lib_creator\bin\Debug\lib_creator.dll
+D:\wow_tools\WowItemCreator\lib_creator\bin\Debug\lib_creator.pdb
+D:\wow_tools\WowItemCreator\lib_creator\obj\Debug\lib_creator.csprojAssemblyReference.cache
+D:\wow_tools\WowItemCreator\lib_creator\obj\Debug\lib_creator.csproj.CoreCompileInputs.cache
+D:\wow_tools\WowItemCreator\lib_creator\obj\Debug\lib_creator.dll
+D:\wow_tools\WowItemCreator\lib_creator\obj\Debug\lib_creator.pdb
