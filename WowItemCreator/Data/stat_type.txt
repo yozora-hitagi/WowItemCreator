@@ -30,7 +30,7 @@
 33,命中躲闪
 34,暴击躲闪
 35,韧性
-36,急速攻击速度
+36,急速
 37,精准等级
 38,攻击强度
 39,远程攻击强度
@@ -41,5 +41,5 @@
 44,护甲穿透等级
 45,法术强度
 46,ITEM_MOD_ HEALTH_REGEN
-47,ITEM_MOD_SPELL_PENETRATION
+47,法术穿透 
 48,ITEM_MOD_BLOCK_VALUE
